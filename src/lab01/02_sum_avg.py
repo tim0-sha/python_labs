@@ -1,0 +1,5 @@
+a=input("a: ")
+b=input("b: ")
+a=float(a.replace(",","."))
+b=float(b.replace(",","."))
+print(f"sum={round(a+b,2)}; avg={round((a+b)/2,2)}")
