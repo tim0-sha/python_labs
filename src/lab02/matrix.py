@@ -18,7 +18,9 @@ print(transpose([[1, 2], [3, 4]]))
 print(transpose([]))
 print(transpose([[1, 2], [3]]))
 """
-def row_sums(mat: list[list[float | int]]) -> list[float]:  
+def row_sums(mat: list[list[float | int]]) -> list[float]:
+    if (mat == []) or (mat ==[[]]):
+        raise ValueError("пустая матрица")
     for i in mat:
         if len(i) != len(mat[0]): 
             raise ValueError("рваная")
