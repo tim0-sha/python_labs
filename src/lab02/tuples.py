@@ -1,4 +1,6 @@
 def format_record(rec: tuple[str, str, float]) -> str:
+    if type(rec) != tuple:
+        raise TypeError("Подайте тип tuple")
     if len(rec) != 3:
         raise ValueError("Введите ФИО, группу, GPA")
     fio = rec[0].split()
