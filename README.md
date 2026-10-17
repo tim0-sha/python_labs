@@ -34,7 +34,7 @@ def read_text(path: str | Path, encoding: str = "utf-8") -> str:
 
 ---
 
-### `write_csv'
+### `write_csv`
 
 ```Python
 import csv
