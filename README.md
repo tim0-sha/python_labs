@@ -216,6 +216,8 @@ python -m src.lab04.text_report_2 data/lab04/a.txt data/lab04/b.txt
 
 
 
+
+
 # Лабораторная работа №5 - JSON и конвертации (JSON↔CSV, CSV→XLSX)
 
 ## Структура лабораторной работы
@@ -295,9 +297,9 @@ json_to_csv(
 )
 ```
 
-![Результат выполнения Задания A](people_from_json.png)
+![Результат выполнения Задания A](images/lab05/people_from_json.png)
 
-![Результат выполнения Задания A](cities_from_json.png)
+![Результат выполнения Задания A](images/lab05/cities_from_json.png)
 
 ---
 
@@ -356,9 +358,9 @@ csv_to_json(
 )
 ```
 
-![Результат выполнения Задания A](people_from_csv.png)
+![Результат выполнения Задания A](images/lab05/people_from_csv.png)
 
-![Результат выполнения Задания A](cities_from_csv.png)
+![Результат выполнения Задания A](images/lab05/cities_from_csv.png)
 
 ### Запуск модуля JSON ↔ CSV
 
@@ -379,7 +381,6 @@ python -m src.lab05.json_csv
 
 ## Задание B — CSV → XLSX
 
-Модуль [csv_xlsx.py](./csv_xlsx.py) содержит функцию:
 
 ```python
 import csv
@@ -449,9 +450,9 @@ csv_to_xlsx(
     "data/lab05/out/people.xlsx",
 )
 ```
-![Результат выполнения Задания B](people_to_xlsx.png)
+![Результат выполнения Задания B](images/lab05/people_to_xlsx.png)
 
-![Результат выполнения Задания B](cities_to_xlsx.png)
+![Результат выполнения Задания B](images/lab05/cities_to_xlsx.png)
 
 ### Запуск модуля CSV → XLSX
 
